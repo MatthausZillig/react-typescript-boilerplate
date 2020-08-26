@@ -3,6 +3,7 @@ import { parseISO } from 'date-fns';
 
 import AppointmentsRepository from '../repositories/AppointmentsRepository';
 import CreateAppointmentService from '../services/CreateAppointmentsService';
+
 // Rota: Receber os dados da requisição, chamar outro arquivo, devolver uma resposta
 
 const appointmentsRouter = Router();
